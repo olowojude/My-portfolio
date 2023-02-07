@@ -29,6 +29,7 @@ a:hover {
 
 html {
   width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -699,7 +700,7 @@ nav .nav-break {
   }
   .hero-section .hero-content-container .hero-nav-links {
     position: relative;
-    margin-bottom: 8em;
+    margin-bottom: 6em;
     margin-left: -1em;
   }
   .hero-section .hero-content-container .hero-text {
