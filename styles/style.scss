@@ -31,18 +31,10 @@ a {
     }
 }
 
-// body {
-//     font-family: 'Montserrat Alternates', 'Gilroy-Light';
-// }
-
-html {
-    width: 100%;
-    overflow-x: hidden;
-}
-
+html,
 body {
     overflow-x: hidden;
-
+    max-width: 100%;
 }
 
 nav {
