@@ -694,9 +694,12 @@ nav .nav-break {
   }
 }
 @media screen and (max-width: 350px) {
+  .hero-section .hero-content-container {
+    padding-top: 15em;
+  }
   .hero-section .hero-content-container .hero-nav-links {
     position: relative;
-    margin-bottom: 4em;
+    margin-bottom: 8em;
     margin-left: -1em;
   }
   .hero-section .hero-content-container .hero-text {
