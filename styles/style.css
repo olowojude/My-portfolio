@@ -696,9 +696,9 @@ nav .nav-break {
     padding-top: 15em;
   }
   .hero-section .hero-content-container .hero-nav-links {
-    position: relative;
-    margin-bottom: 6em;
-    margin-left: -1em;
+    position: absolute;
+    top: 0%;
+    left: 80%;
   }
   .hero-section .hero-content-container .hero-text {
     font-size: 1.2em;

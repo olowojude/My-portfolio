@@ -980,9 +980,9 @@ screen and (min-height: 800px) {
             padding-top: 15em;
 
             .hero-nav-links {
-                position: relative;
-                margin-bottom: 6em;
-                margin-left: -1em;
+                position: absolute;
+                top: 0%;
+                left: 80%;
             }
 
             .hero-text {
