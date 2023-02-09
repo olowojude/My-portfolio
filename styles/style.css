@@ -146,16 +146,13 @@ nav .nav-break {
   height: 0.5em;
   opacity: 0;
   transform: scale(0.3);
-  -webkit-animation: move-arrow 3s ease-out infinite;
-          animation: move-arrow 3s ease-out infinite;
+  animation: move-arrow 3s ease-out infinite;
 }
 .second-section .second-section-content .arrows-container .arrow:first-child {
-  -webkit-animation: move-arrow 3s ease-out 1s infinite;
-          animation: move-arrow 3s ease-out 1s infinite;
+  animation: move-arrow 3s ease-out 1s infinite;
 }
 .second-section .second-section-content .arrows-container .arrow:nth-child(2) {
-  -webkit-animation: move-arrow 3s ease-out 2s infinite;
-          animation: move-arrow 3s ease-out 2s infinite;
+  animation: move-arrow 3s ease-out 2s infinite;
 }
 .second-section .second-section-content .arrows-container .arrow:before, .second-section .second-section-content .arrows-container .arrow:after {
   content: "";
@@ -173,24 +170,6 @@ nav .nav-break {
   right: 0;
   width: 50%;
   transform: skewY(-30deg);
-}
-
-@-webkit-keyframes move-arrow {
-  25% {
-    opacity: 1;
-  }
-  33.3% {
-    opacity: 1;
-    transform: translateY(2.28rem);
-  }
-  66.6% {
-    opacity: 1;
-    transform: translateY(3.12rem);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(4.8rem) scale(0.5);
-  }
 }
 
 @keyframes move-arrow {
@@ -385,54 +364,19 @@ nav .nav-break {
   font-weight: 700;
   color: #aaaaaa;
 }
-.contact form {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1em;
-}
-.contact form input,
-.contact form textarea {
-  font-size: 1.5em;
-  color: #aaaaaa;
-  outline: none;
-  border: none;
-  border-bottom: 2px solid #aaaaaa;
-  background-color: transparent;
-  margin-top: 2em;
-}
-.contact form input::-moz-placeholder, .contact form textarea::-moz-placeholder {
-  color: #aaaaaa;
-  font-family: "Gilroy-Light";
-}
-.contact form input:-ms-input-placeholder, .contact form textarea:-ms-input-placeholder {
-  color: #aaaaaa;
-  font-family: "Gilroy-Light";
-}
-.contact form input::placeholder,
-.contact form textarea::placeholder {
-  color: #aaaaaa;
-  font-family: "Gilroy-Light";
-}
-.contact form textarea {
-  color: #aaaaaa;
-  font-family: "Gilroy-Light";
-}
-.contact form #submit {
-  border: none;
-  font-family: "Gilroy-Light";
-  cursor: pointer;
-  padding: 1em;
-  transition: 0.5s ease-in;
-}
-.contact form #submit:hover {
+.contact .send-email {
+  display: block;
+  padding: 2em 4em;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  margin: 4em auto;
   background-color: #cccccc;
 }
-.contact form svg {
+.contact .send-email:hover {
+  transform: scale(0.9);
   color: #aaaaaa;
-  vertical-align: middle;
-  margin-top: -0.5em;
-  font-size: 1.5em;
+  transition: 0.5s;
 }
 .contact .icons {
   position: absolute;
@@ -641,15 +585,6 @@ nav .nav-break {
   }
   .contact .contact-heading {
     font-size: 2em;
-  }
-  .contact form {
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5em;
-  }
-  .contact form input,
-.contact form textarea {
-    font-size: 1em;
-    width: 90%;
   }
   .footer {
     font-size: 0.8em;

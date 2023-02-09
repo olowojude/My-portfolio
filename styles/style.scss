@@ -452,65 +452,19 @@ nav {
         color: #aaaaaa;
     }
 
-    form {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1em;
+    .send-email {
+        display: block;
+        padding: 2em 4em;
+        width: fit-content;
+        border-radius: 20px;
+        margin: 4em auto;
+        background-color: #cccccc;
 
-        input,
-        textarea {
-            font-size: 1.5em;
+        &:hover {
+            transform: scale(0.9);
             color: #aaaaaa;
-            outline: none;
-            border: none;
-            border-bottom: 2px solid #aaaaaa;
-            background-color: transparent;
-            margin-top: 2em;
-
+            transition: .5s;
         }
-
-        input::placeholder,
-        textarea::placeholder {
-            color: #aaaaaa;
-            font-family: 'Gilroy-Light';
-        }
-
-        textarea {
-            color: #aaaaaa;
-            font-family: 'Gilroy-Light';
-        }
-
-
-        #submit {
-            border: none;
-            font-family: 'Gilroy-Light';
-            cursor: pointer;
-            padding: 1em;
-            // background: linear-gradient(0deg, black, black);
-            // background-repeat: no-repeat;
-            // background-size: 0 2px;
-            // background-position: bottom;
-            transition: .5s ease-in;
-
-            &:hover {
-                background-color: #cccccc;
-                // transition: .3s ease-in;
-                // background: linear-gradient(0deg, black, black);
-                // background-repeat: no-repeat;
-                // background-size: 100% 2px;
-                // background-position: bottom;
-
-            }
-        }
-
-        svg {
-            color: #aaaaaa;
-            vertical-align: middle;
-            margin-top: -.5em;
-            font-size: 1.5em;
-        }
-
     }
 
     .icons {
@@ -877,17 +831,6 @@ screen and (min-height: 800px) {
 
         .contact-heading {
             font-size: 2em;
-        }
-
-        form {
-            grid-template-columns: 1fr 1fr;
-            gap: .5em;
-
-            input,
-            textarea {
-                font-size: 1em;
-                width: 90%;
-            }
         }
     }
 
