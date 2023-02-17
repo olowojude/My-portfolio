@@ -24,7 +24,6 @@ gsap.from(".my-pic", {
     scrollTrigger: {
         trigger: ".my-pic",
         toggleActions: "play reset play reset",
-        markers: true,
         start: "top 90%",
     }
 })
