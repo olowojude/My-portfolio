@@ -1,14 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Poppins&display=swap');
-
 @font-face {
-    font-family: 'Gilroy-Light';
-    src: url("../font/Radomir\ Tinkov\ -\ Gilroy-Light.otf");
+    font-family: 'Montserrat Alternates';
+    src: url("../font/MontserratAlternates-Regular.ttf");
 }
 
 @font-face {
-    font-family: 'Gilroy-Bold';
-    src: url("../font/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf");
+    font-family: 'Poppins';
+    src: url("../font/Poppins-Medium.ttf");
 }
+
+@font-face {
+    font-family: 'Helmet';
+    src: url("../font/Helmet-Regular.ttf");
+}
+
+// @font-face {
+//     font-family: 'Raleway';
+//     src: url("../font/Raleway-Regular.ttf");
+// }
 
 * {
     margin: 0;
@@ -43,7 +51,6 @@ nav {
     display: flex;
     align-items: center;
     gap: .5em;
-    font-family: 'Gilroy-Bold';
 
     .nav-break {
         text-align: justify;
@@ -54,7 +61,7 @@ nav {
 
 .hero-section {
     background-color: #dddddd;
-    font-family: 'Montserrat Alternates', 'Gilroy-Light';
+    font-family: 'Montserrat Alternates';
     height: 100vh;
     // point
     padding: 2em 6em;
@@ -130,7 +137,8 @@ nav {
     background-color: #cccccc;
     height: 100vh;
     position: relative;
-    font-family: 'Gilroy-Light';
+    font-family: 'Helmet';
+    // font-family: "Poppins";
     padding: 0 6em;
     position: relative;
 
@@ -277,8 +285,7 @@ nav {
             padding-left: 4em;
             padding-top: 1em;
             width: 70%;
-            font-family: 'Poppins', 'Gilroy-Light';
-
+            font-family: 'Poppins';
         }
     }
 }
@@ -313,7 +320,7 @@ nav {
 .tech-stack-marquee {
     padding: 1em 0;
     font-size: 2em;
-    font-family: 'Poppins', 'Gilroy-Light';
+    font-family: 'Helmet';
     color: #aaaaaa;
     height: auto;
 }
@@ -323,7 +330,6 @@ nav {
 .projects-section {
     height: auto;
     background-color: #cccccc;
-    font-family: 'Montserrat Alternates', 'Gilroy-Light';
     // point
     padding: 4em 6em;
 
@@ -332,7 +338,7 @@ nav {
 
         .projects-heading {
             font-size: 3em;
-            font-family: 'Gilroy-light';
+            font-family: 'Helmet';
             color: #aaaaaa;
             font-weight: 700;
 
@@ -369,7 +375,7 @@ nav {
     height: 100%;
     padding-top: 1em;
     padding-bottom: 4em;
-    font-family: "Poppins", 'Gilroy-Light' sans-serif;
+    font-family: 'Helmet';
 
     img {
         width: 30em;
@@ -434,6 +440,7 @@ nav {
 
 .second-rotating-link {
     text-align: center;
+    font-family: "Helmet";
     // font-variant: ;
 }
 
@@ -441,7 +448,8 @@ nav {
 .contact {
     height: 100vh;
     background-color: #dddddd;
-    font-family: 'Gilroy-Light';
+    font-family: 'Poppins';
+
     position: relative;
     // point
     padding: 8em 6em;
@@ -479,8 +487,9 @@ nav {
 
 .footer {
     padding: 1em 6em;
-    font-family: 'Gilroy-Light';
+    font-family: 'Helmet';
     background-color: #cccccc;
+    color: #aaaaaa;
     text-align: center;
 }
 
