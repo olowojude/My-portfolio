@@ -13,13 +13,14 @@ gsap.from(".second-section-text-container", {
     scrollTrigger: {
         trigger: ".second-section-text-container",
         scrub: true,
-        start: "top 70%",
+        start: "top 80%",
     }
 })
 
 gsap.from(".my-pic", {
     x: -100,
-    duration: 1,
+    duration: 2.5,
+    ease: "elastic.out(1, 0.3)",
     scrollTrigger: {
         trigger: ".my-pic",
         toggleActions: "play reset play reset",
