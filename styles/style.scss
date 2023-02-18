@@ -32,10 +32,10 @@ a {
     text-decoration: none;
     color: #aaaaaa;
     cursor: pointer;
+    transition: .5s;
 
     &:hover {
         color: black;
-        transition: .1s;
     }
 }
 
@@ -52,8 +52,8 @@ nav {
     align-items: center;
     gap: .5em;
 
-    .nav-break {
-        text-align: justify;
+    .logo-text {
+        font-weight: 900;
     }
 }
 
@@ -381,6 +381,8 @@ nav {
         width: 30em;
         height: auto;
         object-fit: cover;
+        display: inline-block;
+        margin: auto 0;
     }
 
     .project-description {
@@ -464,14 +466,14 @@ nav {
         display: block;
         padding: 2em 4em;
         width: fit-content;
-        border-radius: 20px;
+        border-radius: 30px;
         margin: 4em auto;
         background-color: #cccccc;
+        transition: .5s;
 
         &:hover {
-            transform: scale(0.9);
+            transform: scale(0.90);
             color: #aaaaaa;
-            transition: .5s;
         }
     }
 
@@ -491,6 +493,14 @@ nav {
     background-color: #cccccc;
     color: #aaaaaa;
     text-align: center;
+
+    .back-to-top {
+        text-decoration: underline;
+
+        &:hover {
+            opacity: .7;
+        }
+    }
 }
 
 

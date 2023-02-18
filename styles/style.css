@@ -24,10 +24,10 @@ a {
   text-decoration: none;
   color: #aaaaaa;
   cursor: pointer;
+  transition: 0.5s;
 }
 a:hover {
   color: black;
-  transition: 0.1s;
 }
 
 html,
@@ -43,8 +43,8 @@ nav {
   align-items: center;
   gap: 0.5em;
 }
-nav .nav-break {
-  text-align: justify;
+nav .logo-text {
+  font-weight: 900;
 }
 
 .hero-section {
@@ -305,6 +305,8 @@ nav .nav-break {
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
+  display: inline-block;
+  margin: auto 0;
 }
 .individual-project .project-description {
   display: flex;
@@ -371,14 +373,14 @@ nav .nav-break {
   padding: 2em 4em;
   width: -moz-fit-content;
   width: fit-content;
-  border-radius: 20px;
+  border-radius: 30px;
   margin: 4em auto;
   background-color: #cccccc;
+  transition: 0.5s;
 }
 .contact .send-email:hover {
   transform: scale(0.9);
   color: #aaaaaa;
-  transition: 0.5s;
 }
 .contact .icons {
   position: absolute;
@@ -394,6 +396,12 @@ nav .nav-break {
   background-color: #cccccc;
   color: #aaaaaa;
   text-align: center;
+}
+.footer .back-to-top {
+  text-decoration: underline;
+}
+.footer .back-to-top:hover {
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 1150px) {
