@@ -162,8 +162,8 @@ nav {
         .bitmoji {
             width: 2em;
             position: absolute;
-            left: 15%;
-            top: 30%;
+            left: 40%;
+            top: 10%;
         }
 
         // FOR THE DOWN ARROWS
@@ -460,6 +460,7 @@ nav {
         font-size: 4em;
         font-weight: 700;
         color: #aaaaaa;
+        text-align: center;
     }
 
     .send-email {
@@ -563,15 +564,18 @@ nav {
 
     // SECOND SECTION
     .second-section {
-        .second-section-text-container {
-            font-size: 4em;
-            padding-left: 1em;
-            padding-top: 2em;
-        }
+        .second-section-content {
+            .second-section-text-container {
+                font-size: 5em;
+                padding-left: .5em;
+                padding-top: 1em;
+            }
 
-        .bitmoji {
-            left: 15%;
-            top: 35%;
+            .bitmoji {
+                left: 50%;
+                top: 10%;
+                position: absolute;
+            }
         }
     }
 
@@ -641,8 +645,8 @@ screen and (min-height: 800px) {
             }
 
             .bitmoji {
-                top: 45%;
-                left: 15%;
+                left: 55%;
+                top: 22%;
             }
 
             .arrows-container {
@@ -704,7 +708,7 @@ screen and (min-height: 800px) {
     // CONTACT
     .contact {
         .contact-heading {
-            font-size: 4em;
+            font-size: 3.5em;
         }
     }
 
@@ -749,8 +753,8 @@ screen and (min-height: 800px) {
 
             .bitmoji {
                 position: absolute;
-                left: 10%;
-                top: 30%;
+                left: 62%;
+                top: 10%;
             }
 
             .arrows-container {
@@ -849,7 +853,12 @@ screen and (min-height: 800px) {
         height: 80vh;
 
         .contact-heading {
-            font-size: 2em;
+            font-size: 1.5em;
+        }
+
+        .send-email {
+            padding: 1.5em 3em;
+            border-radius: 20px;
         }
     }
 
@@ -997,7 +1006,7 @@ screen and (min-height: 800px) {
         padding: 4em 1em;
 
         .contact-heading {
-            font-size: 1.5em;
+            font-size: 1.2em;
         }
     }
 

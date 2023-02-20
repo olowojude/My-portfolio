@@ -52,24 +52,13 @@ gsap.from(".third-section-paragragh", {
     }
 })
 
-// PROJECT LIST CONTAINER
-gsap.from(".projects-list", {
-    y: 100,
-    duration: 2,
-    scrollTrigger: {
-        trigger: ".individual-project",
-        toggleActions: "play reset none none",
-    }
-})
-
-// CONTACT HEADING TEXT
-gsap.from(".contact-heading", {
-    y: -100,
-    scale: 1.1,
-    duration: 2.5, ease: "bounce.out",
-    scrollTrigger: {
-        trigger: ".contact-heading",
-        toggleActions: "play reset play reset",
-        start: "top 95%",
-    }
-})
+// // CONTACT HEADING TEXT
+// gsap.from(".contact-heading", {
+//     y: -100,
+//     duration: 2.5, ease: "bounce.out",
+//     scrollTrigger: {
+//         trigger: ".contact-heading",
+//         toggleActions: "play reset play reset",
+//         start: "top 95%",
+//     }
+// })

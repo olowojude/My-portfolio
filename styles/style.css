@@ -131,8 +131,8 @@ nav .logo-text {
 .second-section .second-section-content .bitmoji {
   width: 2em;
   position: absolute;
-  left: 15%;
-  top: 30%;
+  left: 40%;
+  top: 10%;
 }
 .second-section .second-section-content .arrows-container {
   display: flex;
@@ -367,6 +367,7 @@ nav .logo-text {
   font-size: 4em;
   font-weight: 700;
   color: #aaaaaa;
+  text-align: center;
 }
 .contact .send-email {
   display: block;
@@ -414,14 +415,15 @@ nav .logo-text {
   .hero-section .hero-content-container .down-links {
     width: 100%;
   }
-  .second-section .second-section-text-container {
-    font-size: 4em;
-    padding-left: 1em;
-    padding-top: 2em;
+  .second-section .second-section-content .second-section-text-container {
+    font-size: 5em;
+    padding-left: 0.5em;
+    padding-top: 1em;
   }
-  .second-section .bitmoji {
-    left: 15%;
-    top: 35%;
+  .second-section .second-section-content .bitmoji {
+    left: 50%;
+    top: 10%;
+    position: absolute;
   }
   .third-section .third-section-content {
     padding: 4em;
@@ -461,8 +463,8 @@ nav .logo-text {
     padding-left: 2em;
   }
   .second-section .second-section-content .bitmoji {
-    top: 45%;
-    left: 15%;
+    left: 55%;
+    top: 22%;
   }
   .second-section .second-section-content .arrows-container {
     position: absolute;
@@ -501,7 +503,7 @@ nav .logo-text {
     align-self: flex-end;
   }
   .contact .contact-heading {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 }
 @media screen and (max-width: 500px) {
@@ -532,8 +534,8 @@ nav .logo-text {
   }
   .second-section .second-section-content .bitmoji {
     position: absolute;
-    left: 10%;
-    top: 30%;
+    left: 62%;
+    top: 10%;
   }
   .second-section .second-section-content .arrows-container {
     width: 90%;
@@ -595,7 +597,11 @@ nav .logo-text {
     height: 80vh;
   }
   .contact .contact-heading {
-    font-size: 2em;
+    font-size: 1.5em;
+  }
+  .contact .send-email {
+    padding: 1.5em 3em;
+    border-radius: 20px;
   }
   .footer {
     font-size: 0.8em;
@@ -674,7 +680,7 @@ nav .logo-text {
     padding: 4em 1em;
   }
   .contact .contact-heading {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .footer {
     font-size: 0.6em;
