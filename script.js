@@ -4,9 +4,26 @@ gsap.registerPlugin(ScrollTrigger)
 let t = gsap.timeline({
     defaults: { Easings: Expo.Easeout }
 });
-t.from(".hero-text", 1, { y: "50%", ease: "power4.easeOut", opacity: 0, delay: 1 }, 0.15)
-    .from(".nav-text-reveal", { rotationY: 36, opacity: 0, duration: .5, yPercent: -100, stagger: 0.1, ease: "Expo.easeOut" })
-    .from(".down-links-text-reveal", .5, { y: "50%", ease: "power4.easeOut", opacity: 0, delay: .5 })
+t.from(".hero-text", 1, {
+    y: "50%",
+    ease: "power4.easeOut",
+    opacity: 0,
+    delay: 1
+},
+    0.15)
+    .from(".nav-text-reveal", {
+        rotationY: 36,
+        opacity: 0,
+        duration: .5,
+        yPercent: -100,
+        stagger: 0.1,
+        ease: "Expo.easeOut"
+    })
+    .from(".down-links-text-reveal", .5, {
+        y: "50%",
+        ease: "power4.easeOut",
+        opacity: 0,
+    })
 
 // SECOND SECTION TEXT
 gsap.from(".second-section-text-container", {
@@ -52,13 +69,13 @@ gsap.from(".third-section-paragragh", {
     }
 })
 
-// // CONTACT HEADING TEXT
-// gsap.from(".contact-heading", {
-//     y: -100,
-//     duration: 2.5, ease: "bounce.out",
-//     scrollTrigger: {
-//         trigger: ".contact-heading",
-//         toggleActions: "play reset play reset",
-//         start: "top 95%",
-//     }
-// })
+// CONTACT HEADING TEXT
+gsap.from(".contact-heading", {
+    y: -100,
+    duration: 2.5, ease: "bounce.out",
+    scrollTrigger: {
+        trigger: ".contact-heading",
+        toggleActions: "play reset play reset",
+        start: "top 95%",
+    }
+})

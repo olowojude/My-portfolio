@@ -42,6 +42,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 0.5em;
+  font-family: "Montserrat Alternates";
 }
 nav .logo-text {
   font-weight: 900;
